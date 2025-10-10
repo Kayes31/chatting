@@ -95,7 +95,7 @@ const ThreadWelcome: FC = () => {
             exit={{ opacity: 0, y: 10 }}
             className="aui-thread-welcome-message-motion-1 text-2xl font-semibold"
           >
-            Hello there!
+            Hello there! I am an AI created by Kayes
           </m.div>
           <m.div
             initial={{ opacity: 0, y: 10 }}
