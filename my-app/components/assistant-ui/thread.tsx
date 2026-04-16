@@ -104,7 +104,7 @@ const ThreadWelcome: FC = () => {
             transition={{ delay: 0.1 }}
             className="aui-thread-welcome-message-motion-2 text-2xl text-muted-foreground/65"
           >
-            How can I help you today?
+            How can I help you today, Ridhika?
           </m.div>
         </div>
       </div>
@@ -119,8 +119,8 @@ const ThreadSuggestions: FC = () => {
       {[
         {
           title: "What's the weather",
-          label: "in San Francisco?",
-          action: "What's the weather in San Francisco?",
+          label: "Around Ridhika's House?",
+          action: "What's the weather Around Ridhika's House?",
         },
         {
           title: "Explain React hooks",
@@ -133,9 +133,9 @@ const ThreadSuggestions: FC = () => {
           action: "Write a SQL query to find top customers",
         },
         {
-          title: "Create a meal plan",
-          label: "for healthy weight loss",
-          action: "Create a meal plan for healthy weight loss",
+          title: "Explain how Ridhika and Kayes ",
+          label: "Became Best friends",
+          action: "Explain how Ridhika and Kayes Became Best friends",
         },
       ].map((suggestedAction, index) => (
         <m.div
